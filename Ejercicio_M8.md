@@ -42,12 +42,12 @@ calculadora(15, 4, "/")    # ✅ 3.75
 ```
 ## Ejercicio 8.2 — Validador de entrada de usuario
 
-–	Crea una función pedir_entero(mensaje, minimo, maximo) que:
-–	  → Solicite un número entero al usuario con input().
-–	  → Use try/except para capturar ValueError si no ingresa un número.
-–	  → Valide que esté dentro del rango [minimo, maximo], lanzando ValueError si no.
-–	  → Repita hasta obtener un valor válido (bucle while).
-–	Crea también pedir_float(mensaje) y pedir_opcion(mensaje, opciones_validas).
+- Crea una función pedir_entero(mensaje, minimo, maximo) que:
+  - → Solicite un número entero al usuario con input().
+  - → Use try/except para capturar ValueError si no ingresa un número.
+  - → Valide que esté dentro del rango [minimo, maximo], lanzando ValueError si no.
+  - → Repita hasta obtener un valor válido (bucle while).
+- Crea también pedir_float(mensaje) y pedir_opcion(mensaje, opciones_validas).
 ```python
 def pedir_entero(mensaje, minimo=None, maximo=None):
     """Solicita un entero válido dentro de un rango opcional."""
