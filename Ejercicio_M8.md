@@ -348,7 +348,7 @@ def procesar_ventas():
     return reporte
 
 procesar_ventas()
-```python
+```
 
 ## Ejercicio 8.8 — Mini proyecto: Gestor de tareas (To-Do List)	
 
