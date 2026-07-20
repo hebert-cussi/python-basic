@@ -352,11 +352,11 @@ procesar_ventas()
 
 ## Ejercicio 8.8 — Mini proyecto: Gestor de tareas (To-Do List)	
 
-–	Crea un gestor de tareas completo con persistencia en JSON.
-–	Cada tarea tiene: id, titulo, descripcion, estado (pendiente/completada), fecha_creacion, prioridad (alta/media/baja).
-–	Implementa: agregar_tarea, completar_tarea, listar_tareas (filtrable por estado), eliminar_tarea.
-–	Todas las operaciones deben tener manejo de errores.
-–	Usa datetime para las fechas y os para verificar el archivo.
+- Crea un gestor de tareas completo con persistencia en JSON.
+- Cada tarea tiene: id, titulo, descripcion, estado (pendiente/completada), fecha_creacion, prioridad (alta/media/baja).
+- Implementa: agregar_tarea, completar_tarea, listar_tareas (filtrable por estado), eliminar_tarea.
+- Todas las operaciones deben tener manejo de errores.
+- Usa datetime para las fechas y os para verificar el archivo.
 
 ```python
 import json, os
